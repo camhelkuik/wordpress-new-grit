@@ -18,12 +18,29 @@
 </head>
 
 <body <?php body_class(); ?>>
-  
-  Foo
-
-	<div><?php bloginfo('name'); ?></div>
-  <?php bloginfo( 'description' ); ?>
+  <header id="header" class="large_header ">
+    <div id="header_logo" class="large" alt="New Grit Soap Co."></div>
+    <nav id="large_nav" class="large_nav">
+      <li> <a href="#">Home</a> </li>
+      <li> <a href="#about">Process</a> </li>     
+      <li> <a href="#shop">Shop</a> </li>     
+      <li> <a href="#contact">Contact</a> </li>
+    </nav>   
+    
+    <div id="sticky_header" class="sticky_header" alt="New Grit Soap Co.">
+      <div id="sticky_logo" class="small" alt="New Grit Soap Co."></div>
+      <nav id="sticky_nav" class="small_nav">
+        <li> <a href="#">Home</a> </li>
+        <li> <a href="#about">Process</a> </li>     
+        <li> <a href="#shop">Shop</a> </li>    
+        <li> <a href="#contact">Contact</a> </li>
+      </nav>   
+    </div>
+  </header>
 
 	<nav>
 		<?php wp_nav_menu(); ?>
 	</nav>
+  
+  
+  
