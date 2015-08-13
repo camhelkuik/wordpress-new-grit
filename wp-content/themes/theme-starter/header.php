@@ -39,7 +39,16 @@
   </header>
 
 	<nav>
-		<?php wp_nav_menu(); ?>
+    <?php wp_nav_menu(array(
+              'theme_location'  => 'primary',
+            	'container'       => false,
+              'menu_id'         => 'menu',
+            	'before'          => '',
+            	'after'           => '',
+            	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s<div class="clear"></div></ul>',
+            	'depth'           => 0,
+            	'walker'          => ''
+            )); ?>
 	</nav>
   
   
