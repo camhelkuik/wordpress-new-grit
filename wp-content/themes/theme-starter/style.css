@@ -219,6 +219,7 @@ footer{
   width: 250px;
   height: 100px;
   display: inline-block;
+  margin-top: 8px;
 }
 
 footer ul{

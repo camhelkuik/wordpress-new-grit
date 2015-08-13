@@ -10,7 +10,7 @@
   </div><!-- .entry-header -->
 
   <div class="entry-content">
-    
+
     <div class="all_content">
       <div class="main_content">
         <div class="landing">
@@ -18,19 +18,19 @@
             <img class="slide show" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage1.jpg" alt="<?php bloginfo('name'); ?>">
             <img class="slide" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage2.jpg" alt="<?php bloginfo('name'); ?>">
             <img class="slide" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage3.jpg" alt="<?php bloginfo('name'); ?>">
-          
+
             <span class="prev">&laquo;</span>
             <span class="next">&raquo;</span>
           </div>
-    
+
           <div class="welcome">
             <h1>Welcome to New Grit Soap Co.</h1>
             <p>Welcome to New Grit Soap Co. where you can find soap, beauty and skincare products for both men and women that are handcrafted in the USA with all natural, vegan ingredients.</p>
-        
-        
+
+
             <p>Sale on all hair care products this week! Snag your favorite pomade or dry shampoo for 25% off regular price until July 26th!</p>
           </div>
-      
+
           <div class="sale_items">
             <h2>Featured Items</h2>
             <a href="#"><img class="sale_img" src="https://img0.etsystatic.com/066/0/10185223/il_570xN.794068586_lunl.jpg"></a>
@@ -38,7 +38,7 @@
             <a href="#"><img class="sale_img" src="https://img1.etsystatic.com/068/0/10185223/il_570xN.792373215_jf6n.jpg"></a>
           </div>
         </div>
-        
+
         <div style="clear: both"></div>
 
         <div class="break_line"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/blackLine.png" alt="<?php bloginfo('name'); ?>"></div>
@@ -55,12 +55,12 @@
           <ul>
             <li>[ + ] Natural ingredients</li>
             <li>[ + ] Vegan ingredients</li>
-            <li>[ + ] High quality essential oils</li> 
+            <li>[ + ] High quality essential oils</li>
             <li>[ + ] Sustainable and responsibly sourced palm oil</li>
           </ul>
-       
-          <p>Created Without:</p> 
-       
+
+          <p>Created Without:</p>
+
           <ul>
             <li>[ - ] Synthetic ingredients</li>
             <li>[ - ] Animal ingredients</li>
@@ -70,19 +70,19 @@
             <li>[ - ] Animal Testing</li>
           </ul>
         </div>
-       
-        <div class="break_line"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/blackLine.png" alt="<?php bloginfo('name'); ?>"></div>   
+
+        <div class="break_line"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/blackLine.png" alt="<?php bloginfo('name'); ?>"></div>
         <div class="shop" id="shop">
           <h1>The Shop is full and ready to make you feel like a rockstar!</h1>
-     
+
           <a href="https://www.etsy.com/shop/NewGritSoapCo"><img class="shop_img" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/shop-img.png" alt="<?php bloginfo('name'); ?>"></a>
-      
+
         </div>
-       
-        <div class="break_line"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/blackLine.png" alt="<?php bloginfo('name'); ?>"></div>        
+
+        <div class="break_line"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/blackLine.png" alt="<?php bloginfo('name'); ?>"></div>
         <div class="contact" id="contact">
           <h1 class="contact_title">Feel free to contact us with questions, comments or wholesale inquiries.</h1>
-   
+
           <div>
             <form>
               <h4>Name:</h4> <br>
@@ -99,7 +99,7 @@
             </form>
           </div>
         </div>
-   
+
       </div>
     </div>
       
