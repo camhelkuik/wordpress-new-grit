@@ -103,7 +103,7 @@ get_header(); ?>
             <div class="contact" id="contact">
               <h1 class="contact_title">Feel free to contact us with questions, comments or wholesale inquiries.</h1>
 
-              <div>
+              <!-- <div>
                 <form>
                   <h4>Name:</h4> <br>
                   <input type="text" name="name">
@@ -117,7 +117,8 @@ get_header(); ?>
                   <h4>Message:</h4> <br>
                   <input type="textarea" name="message">
                 </form>
-              </div>
+              </div> -->
+              <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?> 
             </div>
 
           </div>
