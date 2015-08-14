@@ -269,6 +269,10 @@ footer ul li{
     margin-right: auto;
 }
 
+.bwg_slideshow_dots_thumbnails_0 {
+    display: none;
+}
+
 .jumbotron{
   position: relative;
   display: block;
