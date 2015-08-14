@@ -207,6 +207,33 @@ input[type="text"] {
   border: solid;
 }
 
+#ninja_forms_field_2{
+  height: 30px;
+}
+
+#ninja_forms_field_1{
+  height: 30px;
+}
+
+#ninja_forms_field_3 {
+    border: solid;
+}
+
+#ninja_forms_field_5 {
+    width: 70px;
+    border: solid 1px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#nf_submit_1 {
+    text-align: right;
+}
+
+.ninja-forms-required-items {
+    margin-bottom: 15px;
+}
+
 footer{
   width: 100%;
   background-color: black;
