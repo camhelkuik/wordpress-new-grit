@@ -264,6 +264,11 @@ footer ul li{
 
 /*Sliding images*/
 
+.bwg_slideshow_image_wrap_0 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .jumbotron{
   position: relative;
   display: block;

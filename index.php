@@ -35,12 +35,14 @@ get_header(); ?>
           <div class="main_content">
             <div class="landing">
               <div class="jumbotron" >
-                <img class="slide show" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage1.jpg" alt="<?php bloginfo('name'); ?>">
+                <!-- <img class="slide show" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage1.jpg" alt="<?php bloginfo('name'); ?>">
                 <img class="slide" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage2.jpg" alt="<?php bloginfo('name'); ?>">
                 <img class="slide" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage3.jpg" alt="<?php bloginfo('name'); ?>">
 
                 <span class="prev">&laquo;</span>
-                <span class="next">&raquo;</span>
+                <span class="next">&raquo;</span> -->
+                  
+                  <?php echo photo_gallery(2); ?>
               </div>
 
               <div class="welcome">
