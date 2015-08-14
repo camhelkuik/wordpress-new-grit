@@ -27,20 +27,14 @@ get_header(); ?>
 
     <p>No posts.</p>
 
-  <?php endif; ?>  -->
-      
+  <?php endif; ?> -->
+    
       <div class="entry-content">
 
         <div class="all_content">
           <div class="main_content">
             <div class="landing">
-              <div class="jumbotron" >
-                <!-- <img class="slide show" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage1.jpg" alt="<?php bloginfo('name'); ?>">
-                <img class="slide" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage2.jpg" alt="<?php bloginfo('name'); ?>">
-                <img class="slide" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/landingpagephotos/LandingPage3.jpg" alt="<?php bloginfo('name'); ?>">
-
-                <span class="prev">&laquo;</span>
-                <span class="next">&raquo;</span> -->
+              <div class="jumbotron">
                   
                   <?php echo photo_gallery(2); ?>
               </div>
@@ -55,9 +49,15 @@ get_header(); ?>
 
               <div class="sale_items">
                 <h2>Featured Items</h2>
-                <a href="#"><img class="sale_img" src="https://img0.etsystatic.com/066/0/10185223/il_570xN.794068586_lunl.jpg"></a>
+                <!-- <a href="#"><img class="sale_img" src="https://img0.etsystatic.com/066/0/10185223/il_570xN.794068586_lunl.jpg"></a>
                 <a href="#"><img class="sale_img" src="https://img0.etsystatic.com/068/0/10185223/il_570xN.778163342_ni49.jpg"></a>
-                <a href="#"><img class="sale_img" src="https://img1.etsystatic.com/068/0/10185223/il_570xN.792373215_jf6n.jpg"></a>
+                <a href="#"><img class="sale_img" src="https://img1.etsystatic.com/068/0/10185223/il_570xN.792373215_jf6n.jpg"></a> -->
+                 <div id="post-<?php the_ID(56); ?>" <?php post_class(); ?>>
+    
+                     <?php the_content(); ?>
+
+                 </div><!-- #post-## -->
+                 
               </div>
             </div>
 
@@ -105,21 +105,6 @@ get_header(); ?>
             <div class="contact" id="contact">
               <h1 class="contact_title">Feel free to contact us with questions, comments or wholesale inquiries.</h1>
 
-              <!-- <div>
-                <form>
-                  <h4>Name:</h4> <br>
-                  <input type="text" name="name">
-                  <br>
-                  <h4>Email:</h4> <br>
-                  <input type="text" name="email">
-                  <br>
-                  <h4>Phone Nubmber:</h4> <br>
-                  <input type="text" name="phone_number">
-                  <br>
-                  <h4>Message:</h4> <br>
-                  <input type="textarea" name="message">
-                </form>
-              </div> -->
               <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 1 ); } ?> 
             </div>
 

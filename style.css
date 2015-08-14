@@ -105,6 +105,7 @@ h1 {
 
 .landing {
   height: 750px;
+  margin-top: 25px;
 }
 
 .welcome{
@@ -340,6 +341,10 @@ img.hamburger {
     width: 30.5%;
     margin-left: 12.5px;
   }
+  
+  .landing{
+    margin-top: 0px;
+  }
 }
 
 @media (max-width: 857px){
@@ -444,7 +449,7 @@ img.hamburger {
     z-index: 10;
   }
   .large_header{
-    height: 124px;
+    height: 135px;
   }
 
   .large_nav li{
