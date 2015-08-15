@@ -12,22 +12,6 @@
 get_header(); ?>
 
 
-  <!-- <?php if ( have_posts() ) : ?>
-
-    <?php /* Start the Loop */ ?>
-   <?php while ( have_posts() ) : the_post(); ?>
-
-      <?php get_template_part('template-parts/content'); ?>
-
-    <?php endwhile; ?>
-
-    <?php the_posts_navigation(); ?>
-
-  <?php else : ?>
-
-    <p>No posts.</p>
-
-  <?php endif; ?> -->
     
       <div class="entry-content">
 
@@ -52,11 +36,10 @@ get_header(); ?>
                 <!-- <a href="#"><img class="sale_img" src="https://img0.etsystatic.com/066/0/10185223/il_570xN.794068586_lunl.jpg"></a>
                 <a href="#"><img class="sale_img" src="https://img0.etsystatic.com/068/0/10185223/il_570xN.778163342_ni49.jpg"></a>
                 <a href="#"><img class="sale_img" src="https://img1.etsystatic.com/068/0/10185223/il_570xN.792373215_jf6n.jpg"></a> -->
-                 <div id="post-<?php the_ID(56); ?>" <?php post_class(); ?>>
-    
-                     <?php the_content(); ?>
-
-                 </div><!-- #post-## -->
+                 <?php query_posts('p=56'); ?>
+                 	<?php while (have_posts()) : the_post(); ?>
+                 		<?php the_content(); ?>
+                 	<?php endwhile;?>
                  
               </div>
             </div>
