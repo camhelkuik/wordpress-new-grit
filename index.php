@@ -38,13 +38,14 @@ get_header(); ?>
                
           <?php query_posts('p=56'); ?>
           <?php while (have_posts()) : the_post(); ?>
-            <?php the_content(); ?>
+            <?php echo $post->post_content; ?>
           <?php endwhile;?>
                  
         </div>
+        <div style="clear: both"></div>
+        
       </div>
 
-      <div style="clear: both"></div>
 
       <div class="break_line"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/blackLine.png" alt="<?php bloginfo('name'); ?>"></div>
       <div class="about" id="about">
