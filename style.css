@@ -62,9 +62,9 @@ html {
   list-style-type: none;
   display: inline-block;
   font-family: 'Fredericka the Great', cursive;
-  position: relative;
+  /*position: relative;
   top: -40px;
-  left: 20px;
+  left: 20px;*/
 }
 
 nav li{
@@ -134,11 +134,14 @@ h1 {
 
 .sale_img{
   width: 31.5%;
-  float: left;
-  margin-left: 9.5px;
-  margin-right: 3.5px;
   border: solid;
 }
+
+.sale_img_wrapper {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .break_line {
   margin-top: 25px;
@@ -217,22 +220,22 @@ input[type="text"] {
 }
 
 #ninja_forms_field_3 {
-    border: solid;
+  border: solid;
 }
 
 #ninja_forms_field_5 {
-    width: 70px;
-    border: solid 1px;
-    background-color: white;
-    border-radius: 8px;
+  width: 70px;
+  border: solid 1px;
+  background-color: white;
+  border-radius: 8px;
 }
 
 #nf_submit_1 {
-    text-align: right;
+  text-align: right;
 }
 
 .ninja-forms-required-items {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 footer{
@@ -266,12 +269,12 @@ footer ul li{
 /*Sliding images*/
 
 .bwg_slideshow_image_wrap_0 {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bwg_slideshow_dots_thumbnails_0 {
-    display: none;
+  display: none;
 }
 
 .jumbotron{
@@ -339,7 +342,6 @@ img.hamburger {
 @media (max-width: 1063px){
   .sale_img {
     width: 30.5%;
-    margin-left: 12.5px;
   }
   
   .landing{
@@ -350,7 +352,6 @@ img.hamburger {
 @media (max-width: 857px){
   .sale_img {
     width: 29.5%;
-    margin-left: 15.5px;
   }
   
   form {
@@ -366,7 +367,6 @@ img.hamburger {
 @media (max-width: 759px){
   .sale_img {
     width: 28.5%;
-    margin-left: 16.5px;
   }
   
   .shop_img {
@@ -379,7 +379,6 @@ img.hamburger {
     width: 42%;
     margin-top: 8px;
     margin-bottom: 8px;
-    margin-left: 25px; 
   }
   
   .shop_img {
@@ -395,22 +394,10 @@ img.hamburger {
   }
 }
 
-@media (max-width: 662px){
-  .sale_img {
-    margin-left: 22px; 
-  }
-}
-
-@media (max-width: 586px){
-  .sale_img {
-    margin-left: 20px; 
-  }
-}
 
 
-@media (max-width: 554px){
+@media (max-width: 568px){
   .sale_img {
-    margin-left: 37px;
     width: 80%;
   }
   
@@ -455,15 +442,60 @@ img.hamburger {
   .large_nav li{
     display: list-item;
     position: relative;
-    top: -88px;
-    left: 140px;
+    top: -105px;
+    left: 180px;
     margin-right: 10px;
     font-size: 20px;
     
   }
 }
 
-@media (max-width: 511px){
-  .sale_img {
-    margin-left: 34px;  }
+  
+  @media (max-width: 445px){
+    .large_nav li {
+      left: 156px;
+    }
   }
+  
+  @media (max-width: 405px){
+    .large_nav li {
+      left: 124px;
+    }
+    
+    #header_logo{
+      margin-top: 28px;
+      
+    }
+    
+    .large-nav{
+      padding-top: 20px;
+    }
+    ul#menu {
+      padding-left: 0;
+      position: relative;
+      top: 12px;
+      left: -29px;
+    }
+    
+    .small{
+      background-image: none; 
+      background-repeat: no-repeat;
+      width: 0;
+      display: inline-block;
+    }
+    
+    .small-nav {
+      left: 0;
+    }
+    
+    .large{
+      background-image: url("assets/BigLogoMedia.jpg");
+      width: 175px;
+      height: 71px;
+    }
+  }
+  
+  @media (max-width: 350px){
+    .large_nav li {
+      left: 114px;
+    }

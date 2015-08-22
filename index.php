@@ -23,7 +23,7 @@ get_header(); ?>
           <?php echo photo_gallery(2); ?>
         </div>
 
-        <div class="welcome">
+        <div class="welcome"> 
           <h1>Welcome to New Grit Soap Co.</h1>
              
           <?php query_posts('p=59'); ?>
