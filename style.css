@@ -62,9 +62,8 @@ html {
   list-style-type: none;
   display: inline-block;
   font-family: 'Fredericka the Great', cursive;
-  /*position: relative;
-  top: -40px;
-  left: 20px;*/
+  position: relative;
+  top: -34px;
 }
 
 nav li{
@@ -364,13 +363,18 @@ img.hamburger {
   }
 }
 
-@media (max-width: 759px){
+@media (max-width: 743px){
   .sale_img {
     width: 28.5%;
   }
   
   .shop_img {
     left: -19px;
+  }
+  
+  .large_nav {
+    position: none;
+    top: 0;
   }
 }
 
@@ -459,7 +463,7 @@ img.hamburger {
   
   @media (max-width: 405px){
     .large_nav li {
-      left: 124px;
+      left: 135px;
     }
     
     #header_logo{
@@ -495,7 +499,4 @@ img.hamburger {
     }
   }
   
-  @media (max-width: 350px){
-    .large_nav li {
-      left: 114px;
-    }
+ 
